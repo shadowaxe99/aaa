@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Chat Interface Styles */
+#chat-interface {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#chat-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#code-output {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Theme Styles */
+.theme-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.theme-light {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+    .container {
+        width: 95%;
+    }
+}
